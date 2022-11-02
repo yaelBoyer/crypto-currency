@@ -1,0 +1,129 @@
+#appContainer{
+    display: flex;
+    gap:15px;
+    flex-wrap: wrap;
+}
+
+.mainPage{
+    width: 220px;
+    padding: 2%;
+    margin-left: 40%;
+  margin-right: 40%;
+}
+.loader {
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+    visibility: hidden;
+    position: fixed;
+    z-index: 1;
+    left: 45vw;
+    top:40vh;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  .collapse{
+    width: 100px;
+  }
+  .header{
+    font-size:700%;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  #card{
+    margin-right: 60%;
+    margin-left: 70%;
+    font-size:medium;
+    font-style: italic;
+    width: 1000px;
+    
+    
+  }
+  .nav-item {
+    width: 33%;
+    height: 60px;
+    background: #005282;
+    text-align: center;
+    margin: auto;
+    color: white !important
+    
+     
+  }
+  .input-group{
+    width: 46%;
+    margin:auto;
+    padding-top: 27px;
+  }
+
+  #reportsMessage{
+    width: 250%;
+  height: 100px;
+  font-size: xx-large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin: auto;
+    margin-bottom: 20px;
+    padding-right: 10%;
+   
+  background-color: red;
+  animation-name: example;
+  animation-duration: 4s;
+  }
+  @keyframes example {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+  }
+.collapses{
+    width: 200px;
+}
+#search{
+    border: 1px solid rgba(0,0,0,.125);
+    width: 46%;
+    text-align: center;
+    margin-left: 25px;
+    margin: auto;
+    margin-bottom: 20px;
+   
+}
+#search-card{
+    border: none !important;
+    margin: auto;
+}
+.card-body{
+    text-align: center;
+    border: none;
+}
+.switch-wrapper{
+   padding-left: 130px;
+    margin-bottom: 10px
+}
+.collapse{
+    text-align: center;
+}
+.nav-link{
+    margin: auto;
+    padding-top: 17px;
+    font-size: larger;
+    font-weight: 700;
+    color: white;
+    width: -webkit-fill-available;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #08BE70;
+    width: -webkit-fill-available;
+    height: inherit;
+}
+
+
+  
